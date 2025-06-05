@@ -24,7 +24,7 @@
 		const canvas = document.getElementById('canvas3d');
 		if (canvas) {
 			const app = new Application(canvas);
-			app.load('https://prod.spline.design/8l-YEWxfmLSh7lB8/scene.splinecode').then(() => {
+			app.load('https://prod.spline.design/WCczSWoOoZu-FQCo/scene.splinecode').then(() => {
 				stopTicker();
 				setTimeout(() => { loading = false; }, 400);
 			});
@@ -75,13 +75,7 @@ body, :global(html) {
 .logo {
 	width: 156px;
 	height: 156px;
-	background: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-sizing: border-box;
-	box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-	border-radius: 8px;
+	
 }
 .logo img {
 	width: 100%;
@@ -96,7 +90,7 @@ body, :global(html) {
 }
 .nav a {
 	text-decoration: none;
-	color: #000;
+	color: #ffffff;
 	font-size: 1.15rem;
 	font-weight: 400;
 	transition: color 0.2s;
@@ -159,12 +153,14 @@ body, :global(html) {
 	text-align: center;
 	line-height: 1.1;
 	margin-bottom: 0.1em;
+	color: #fff;
 }
 .subheadline {
 	font-size: 2.5rem;
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 0.2em;
+	color: #fff;
 }
 .headline .tech, .subheadline .tech {
 	color: #e53935;
@@ -174,7 +170,7 @@ body, :global(html) {
 	font-size: 1.1rem;
 	text-align: center;
 	margin-bottom: 2.5em;
-	color: #222;
+	color: #cecece;
 	max-width: 480px;
 }
 .connect-btn {
@@ -248,7 +244,7 @@ body, :global(html) {
 </div>
 <div class="header">
 	<div class="logo">
-		<img src="/icon-tf.png" alt="Think Forge Global Logo" style="width:100%;height:100%;object-fit:contain;" />
+		<img src="/icon-tfb.png" alt="Think Forge Global Logo" style="width:100%;height:100%;object-fit:contain;" />
 	</div>
 	<nav class="nav">
 		<a href="#">Blog</a>
